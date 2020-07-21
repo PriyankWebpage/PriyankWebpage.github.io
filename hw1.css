@@ -1,0 +1,124 @@
+header{
+  background-color:rgb(180,180,180);
+  background-image: url(http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg);
+  height:185px;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  padding:5px 10px;
+  text-align: center;
+  margin:15px 18px 0px;
+}
+body{
+  margin:5px;
+  padding: 5px;
+}
+h1{
+  color:#FFFFFF;
+  text-align:center;
+  text-transform: uppercase;
+  font-style:italic;
+  font-family:cursive;
+  margin-bottom: 30px;
+}
+h2{
+  color:rgb(0,0,0);
+  text-transform: capitalize;
+}
+.right{
+  float: right;
+  width: 75%;
+  margin-left: 270px;
+}
+
+nav a{
+  background-color: rgba(225,225,225,0.3);
+  text-align: center;
+  padding:15px 25px;
+  font-size: 25px;
+  margin:0px 30px 30px;
+  text-decoration: none;
+  border-radius: 4px;
+  color:rgb(0,0,0);
+  display: inline-block;
+  width: 150px;
+  height: 30px;
+  transition:width 1s,height 1s;
+  transition-timing-function: ease;
+}
+
+nav a:hover{
+  background-color: #FFFFFF;
+  width: 180px;
+  height: 40px;
+  text-align: center;
+}
+
+.left{
+  background-color: rgb(102, 102, 51);
+  margin-left: 18px;
+  width: 250px;
+  height: 600px;
+  border-top: 40px solid rgb(102, 102, 51);
+  display: inline-block;
+  position: fixed;
+
+}
+.active{
+  background-color:#FFFFFF;
+  color:rgb(0,0,0);
+}
+
+img{
+ /*For Images on the left side of the page*/
+  display:block;
+  width: 200px;
+  margin-left: 18px;
+  border: solid 2px black; 
+  margin:0px 20px 45px;
+}
+
+table{
+  margin-left: 250px;
+  line-height: 18px;
+  border-radius: 4px 4px 0px 0px;
+  border-spacing: 2px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+tr{
+  background-color: #cccc99;
+  /*line-height: 35px;*/
+  opacity: 0.7;
+  transition: 0.7s;
+}
+tr:hover{
+  opacity: 1;
+}
+td{
+  padding: 10px;
+  margin: 2px;
+  font-family: cursive;
+  color: rgb(0,0,0);
+}
+th{
+  background-color:  #608000;
+  border: 2px solid #008000;
+  color: white;
+  border-radius: 4px 4px 0px 0px;
+  padding: 10px;
+  opacity: 1;
+}
+tr td:first-child{
+  text-align: left;
+  
+}
+tr td:nth-child(2){
+  text-align: center;
+  
+}
+
+tr td:nth-child(3){
+  text-align: center;
+  
+}
